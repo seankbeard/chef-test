@@ -1,0 +1,11 @@
+{
+    "name": "base",
+    "description": "base server role.",
+    "json_class": "Chef::Role",
+    "chef_type": "role",
+    "run_list": ["recipe[myclient::default]",
+                 "recipe[myaudit::default]"
+    ],
+    "env_run_lists": {
+    }
+ }
