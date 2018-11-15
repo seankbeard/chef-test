@@ -1,0 +1,12 @@
+{
+    "name": "test",
+    "default_attributes": {},
+    "json_class": "Chef::Role",
+    "run_list": [
+        "role[base]",
+        "role[osharden]"
+        ],
+    "description": "Test Server Role",
+    "chef_type": "role",
+    "override_attributes": {}
+}

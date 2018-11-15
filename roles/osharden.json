@@ -1,0 +1,11 @@
+{
+    "name": "osharden",
+    "default_attributes": {},
+    "json_class": "Chef::Role",
+    "run_list": [
+        "recipe[os-hardening::default]"
+        ],
+    "description": "OS Harden and Patch Chef Role",
+    "chef_type": "role",
+    "override_attributes": {}
+}
